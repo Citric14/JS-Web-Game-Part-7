@@ -64,6 +64,8 @@ function newNonPlayableCharacter(x, y) {
         walkSouth: walkSouth,
         stop: stop
     }
+
+    
 }
 
 function sleep(time){
@@ -72,9 +74,3 @@ function sleep(time){
     })  
 }
 
-async function moveNPC() {
-    await npc.walkEast(2000)
-    npc.walkSouth()
-}
-
-moveNPC()
